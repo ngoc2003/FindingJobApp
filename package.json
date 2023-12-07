@@ -1,4 +1,8 @@
 {
+  "author": {
+    "name": "ngoc2003",
+    "email": "buithuyngoc1@gmail.com"
+  },
   "name": "findingjobapp",
   "version": "1.0.0",
   "main": "index.js",
@@ -9,8 +13,10 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "axios": "^1.6.2",
     "expo": "^49.0.3",
     "expo-constants": "~14.4.2",
+    "expo-font": "^11.6.0",
     "expo-linking": "~5.0.2",
     "expo-router": "2.0.0",
     "expo-splash-screen": "~0.20.4",
@@ -26,7 +32,14 @@
   },
   "devDependencies": {
     "@babel/core": "^7.19.3",
-    "@babel/plugin-proposal-export-namespace-from": "^7.18.9"
+    "@babel/plugin-proposal-export-namespace-from": "^7.18.9",
+    "@tsconfig/react-native": "^3.0.2",
+    "@types/jest": "^29.5.11",
+    "@types/react": "^18.2.42",
+    "@types/react-native": "^0.72.8",
+    "@types/react-test-renderer": "^18.0.7",
+    "expo-cli": "^6.3.10",
+    "typescript": "^5.3.3"
   },
   "resolutions": {
     "metro": "^0.73.7",
